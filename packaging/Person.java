@@ -16,11 +16,13 @@ Person(int age,String name,Biodata biodatafield)
       this.biodata=biodatafield;
 }
 
-    public void setBiodata(Biodata biodata)
-    {
-       this.biodata=new Biodata(biodata);
-    }
- 
+   //we make the object as immutable which is shared among thread so that it cant be chnaged by multiple thread 
+   //at the same time leading to race condition.
+
+
+
+
+
   }
 
 
