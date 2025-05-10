@@ -10,7 +10,8 @@ public class inhertiancetest {
 //we can o like this also ;
 Object o=new childlish(0, null, 0);//we can point from object also 
 System.out.println(o.getClass());
-
+System.out.println("hello-------------------------");
+inheritance-> wec use when we want parent all field and method to be used inside the child.
 
 
     }
