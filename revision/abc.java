@@ -75,8 +75,57 @@ char(0 to 2^16-1)
 we can have variable name no like this->0a ,1-9a,_a
 a!, a# ||a else if keyword cant be used as variale name 
 
+primitive and non primitive data type
+non priomit data type-> they are stored on heap
+they are object of some other class
+while primitiv e they arte storted on stack
 
 
+whenever we are accessing primitive data type without initializing it we get compilatiion error 
+when we access non primitve data type then we get default value
+
+
+
+for every primitive data type in java we have wrapper class
+
+
+int->integer
+char->Character
+short->Short
+long->Long
+float->Float
+double->Double
+byte->Byte
+ 
+we need to have non primitive daa type
+as they contain reference
+non primitve typw for collections 
+it contains refereen
+
+Integer a=new Integer(10);
+arraylist of Integer type not ofg int type      
+
+
+
+autoboxing means converting primitive to non primitive
+
+int b=12;
+Integer a=b;//autoboxing
+
+//autounboxing
+Integer b2=12;
+int b1=b2;
+
+
+
+type conversion
+
+1.implicit type conversion
+byte->short->integer->long->float->double
+
+
+explxit tpe conversion
+int a=(int)2.5f;
 
 
 
